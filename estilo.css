@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+.container {
+    background-color: black;
+}
+
+.caixa1 {
+    left: 38%;
+    top: 45%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.caixa {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: rgba(82, 247, 231, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h1 {
+    padding: 20px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+h2 {
+    padding: 20px;
+    left: 40%;
+    top: 35%;
+    margin-bottom: 20px;
+    position: absolute;
+}
+
+button {
+    padding: 10px;
+    margin: 15px;
+    width: 100px;
+}
+
+.circle1 {
+    width: 450px;
+    height: 120px;
+    position: absolute;
+    border-radius: 200px;
+    top: 60%;
+    left: 50%;
+    background: rgba(82, 247, 231, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.circle2 {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    border-radius: 200px;
+    background-color: rgb(148, 111, 209);
+    top: 55%;
+    left: 65%;
+}
+
+.btn {
+    border: 2px solid #6c30cc;
+    background-color: transparent;
+    color: #6838d8;
+    padding: 10px 0px;
+    font-size: var(--f-m);
+    cursor: pointer;
+    transition: 256ms all;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background-color: #7b4ee2;
+    color: #fff;
+  }
